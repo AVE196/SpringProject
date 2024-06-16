@@ -12,6 +12,29 @@
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <springVersion>6.1.9</springVersion>
     </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${springVersion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${springVersion}</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>jakarta.annotation</groupId>-->
+<!--            <artifactId>jakarta.annotation-api</artifactId>-->
+<!--            <version>3.0.0</version>-->
+
+<!--        </dependency>-->
+    </dependencies>
     
 </project>
