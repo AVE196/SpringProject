@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:player.properties"/>
+    <context:component-scan base-package="org.example"/>
+
+<!--    <bean id="classicMusic"-->
+<!--          class="org.example.ClassicalMusic"-->
+<!--          init-method="init"-->
+<!--          destroy-method="destroy"-->
+<!--          factory-method="getClassicalMusic"/>-->
+
+<!--    <bean id="rockMusic" class="org.example.RockMusic"/>-->
+<!--    <bean id="technoMusic" class="org.example.TechnoMusic"/>-->
+
+<!--    <bean id="player"-->
+<!--          class="org.example.MusicPlayer"-->
+<!--          scope="prototype"-->
+<!--          init-method="init"-->
+<!--          destroy-method="destroy">-->
+
+<!--        <property name="musicList">-->
+<!--            <list>-->
+<!--                <ref bean="classicMusic"/>-->
+<!--                <ref bean="rockMusic"/>-->
+<!--                <ref bean="technoMusic"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--        <property name="volume" value="${volume}"/>-->
+<!--        <property name="model" value="${model}"/>-->
+<!--    </bean>-->
+</beans>
